@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Practise.Config
+{
+    public class Conncetion
+    {
+        public SqlConnection conn = new SqlConnection("Data Source=DESKTOP-932J4T4\\SQLEXPRESS;Initial Catalog=PPL;Integrated Security=True");
+    }
+}
